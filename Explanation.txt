@@ -1,0 +1,64 @@
+Given an array A, partition it into two (contiguous) subarrays left and right so that:
+
+Every element in left is less than or equal to every element in right.
+left and right are non-empty.
+left has the smallest possible size.
+Return the length of left and right after such a partitioning.  It is guaranteed that such a partitioning exists.
+
+Input description:
+First line contains, n the size of array.(2<n<1000)
+Second line contains, n size of integers as elements as input.
+
+Output Description:
+Print the length of left and right after such a partitioning.
+
+Sample Input:
+5
+5 0 3 8 6
+
+Sample Output:
+3
+2
+
+Explanation:
+left = [5,0,3], right = [8,6]
+
+Sample Input:
+5
+0 3 7 1 2
+
+Sample Output:
+1
+4
+
+Sample Input:
+3
+1 0 4
+
+Sample Output:
+2
+1
+
+Sample Input:
+6
+1 1 1 0 6 12
+
+Sample Output:
+4
+2
+
+Sample Input:
+5
+2 1 0 4 3
+
+Sample Output:
+3
+2
+
+Sample Input:
+7
+1 1 2 7 7 8 9
+
+Sample Output:
+1
+6
